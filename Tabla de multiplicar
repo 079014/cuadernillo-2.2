@@ -1,0 +1,21 @@
+using System;
+using System.Linq;
+namespace Tabla_de_multiplicar_2
+{
+    public static class Program
+{
+	public static void Main()
+	{
+		int num=0;
+		int multiplicador=1;
+		Console.WriteLine("ingresar el numero de que deseas multuplicar ");
+		num=int.Parse(Console.ReadLine());
+		while(multiplicador<=12)
+		{
+			Console.WriteLine(multiplicador+"*"+num+"="+(multiplicador*num));
+			multiplicador++;
+		}
+Console.ReadKey();
+	}
+}
+}
