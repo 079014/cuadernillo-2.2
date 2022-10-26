@@ -1,0 +1,38 @@
+using System;
+using System.Linq;
+
+namespace Suplementos
+{
+	public static class Program
+	{
+		public static void Main()
+		{
+			//entrada
+			int cre,pro,pre,precio,t;
+			
+			
+		Console.WriteLine("ingresa la cantidad de creatina que deseas comprar");
+		cre= int.Parse(Console.ReadLine());
+		cre=cre*650;
+		
+		Console.WriteLine("ingresa la cantidad de creatina que deseas comprar");
+		pro= int.Parse(Console.ReadLine());
+		pro=pro*800;
+		
+		Console.WriteLine("ingresa la cantidad de creatina que deseas comprar");
+		pre= int.Parse(Console.ReadLine());
+		pre=pre*500;
+		
+		t=cre+pro+pre;
+			
+Console.WriteLine("el precio de la creatina es:"+ cre );
+
+Console.WriteLine("el precio del proteina es:"+ pro );
+
+Console.WriteLine("el precio del prentreno  es:"+pre);
+
+Console.WriteLine("el total de su compra es:"+ t );
+Console.ReadKey();
+		}
+	}
+}
